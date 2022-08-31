@@ -101,15 +101,19 @@ yarn open
 
 Rename all test files located at `cypress/e2e` and `cypress/support` folders from `.js` to `.ts`
 
-#### 9.3. Setup VS Code to work with TypeScript
+#### 9.3. Install required VS Code extension
+
+Install `ZipFS` VS Code extension.
+
+#### 9.4. Setup VS Code to work with TypeScript
 
 ```shell
 yarn dlx @yarnpkg/sdks vscode
 ```
 
-#### 9.4. Select TypeScript version in VS Code
+#### 9.5. Select TypeScript version in VS Code
 
-Open any `.ts` file and press `Cmd` + `Shift` + `P` and type and select `Select TypeScript Version` option and then select `Workspace version`
+Open any `.ts` file and press `Cmd` + `Shift` + `P`, type and select `Select TypeScript Version` option and then select `Workspace version`
 
 ### 10. Run the tests
 
